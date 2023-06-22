@@ -134,7 +134,7 @@ Untuk mengakses REST API CodeIgniter, kita perlu mendefinisikan route-nya terleb
 $routes->resource('post');
 ```
 
-- Untuk mengecek route nya jalankan perintah berikut
+- Untuk mengecek route nya jalankan perintah berikut :
 
 ```
 php spark routes
@@ -153,16 +153,15 @@ Buka aplikasi postman dan pilih create new → HTTP Request.
 ![Gambar 2](img/2.png)
 
 ## Displays All Data
-Pilih method GET dan masukkan URL berikut:
+Pilih method GET dan masukkan URL berikut :
 - http://localhost:8080/post
 
 Kemudian, klik Send. Jika hasil test menampilkan semua data artikel dari database maka pengujian berhasil.
 
-
 ![Gambar 3](img/3.png)
 
 ## Display Certain Data
-Masih bersama method GET yaa, disini hanya perlu menambahkan ID artikel di belakang URL beriku:
+Masih bersama method GET yaa, disini hanya perlu menambahkan ID artikel di belakang URL berikut :
 - http://localhost:8080/post/2
 
 Selanjutnya, klik Send. Request tersebut akan menampilkan data artikel yang memiliki ID nomor 2 di database.
@@ -171,7 +170,7 @@ Selanjutnya, klik Send. Request tersebut akan menampilkan data artikel yang memi
 
 ## Ubah Data
 Untuk mengubah data, silakan ganti method menjadi PUT. Kemudian, masukkan URL artikel
-yang ingin diubah. Misalnya, ingin mengubah data artikel dengan ID nomor 2, maka masukkan URL berikut:
+yang ingin diubah. Misalnya, ingin mengubah data artikel dengan ID nomor 2, maka masukkan URL berikut :
 - http://localhost:8080/post/2
 
 Selanjutnya, pilih Tab Body. Kemudian, pilih x-www-form-uriencoded. Masukkan nama 
@@ -181,8 +180,8 @@ atribut tabel pada kolom KEY dan nilai data yang baru pada kolom VALUE. Jika sud
 
 ## Menambahkan Data
 Kita perlu menggunakan method POST untuk menambahkan data baru ke database. 
-Kemudian, masukkan URL berikut:
-http://localhost:8080/post
+Kemudian, masukkan URL berikut :
+- http://localhost:8080/post
 
 Pilih tab Body, lalu pilih x-www-form-uriencoded. Masukkan atribut tabel pada 
 kolom KEY dan nilai data baru di kolom VALUE. Jangan lupa, klik Send.
@@ -192,8 +191,8 @@ kolom KEY dan nilai data baru di kolom VALUE. Jangan lupa, klik Send.
 ## Menghapus Data
 
 Pilih method DELETE untuk menghapus data. Lalu, masukkan URL spesifik data mana yang 
-ingin di hapus. Misalnya, ingin menghapus data nomor 4, maka URL-nya seperti ini:
-http://localhost:8080/post/7
+ingin di hapus. Misalnya, ingin menghapus data nomor 4, maka URL-nya seperti ini :
+- http://localhost:8080/post/7
 
 Langsung saja klik Send, maka akan mendapatkan pesan bahwa data telah berhasil dihapus dari database.
 
