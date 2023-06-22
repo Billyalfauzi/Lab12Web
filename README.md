@@ -17,7 +17,6 @@
 </body>
 
 ## Instructions
-Laporan Praktikum
 - Melanjutkan praktikum sebelumnya pada repository dengan nama Lab11Web.
 - Kerjakan semua latihan yang diberikan sesuai urutannya.
 - Screenshot setiap perubahannya.
